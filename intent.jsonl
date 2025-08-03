@@ -1,0 +1,20 @@
+{"inputs": {"query": "What's the weather in London?"}, "outputs": {"expected_intent": "weather", "expected_confidence": "high"}}
+{"inputs": {"query": "How's the temperature in New York today?"}, "outputs": {"expected_intent": "weather", "expected_confidence": "high"}}
+{"inputs": {"query": "Is it raining in Tokyo right now?"}, "outputs": {"expected_intent": "weather", "expected_confidence": "high"}}
+{"inputs": {"query": "What's the weather forecast for Paris this weekend?"}, "outputs": {"expected_intent": "weather", "expected_confidence": "high"}}
+{"inputs": {"query": "Current temperature in Mumbai"}, "outputs": {"expected_intent": "weather", "expected_confidence": "high"}}
+{"inputs": {"query": "Is it sunny in Los Angeles right now?"}, "outputs": {"expected_intent": "weather", "expected_confidence": "high"}}
+{"inputs": {"query": "Weather conditions in Berlin today"}, "outputs": {"expected_intent": "weather", "expected_confidence": "high"}}
+{"inputs": {"query": "How windy is it in Chicago?"}, "outputs": {"expected_intent": "weather", "expected_confidence": "high"}}
+{"inputs": {"query": "What's the humidity level in Dubai?"}, "outputs": {"expected_intent": "weather", "expected_confidence": "high"}}
+{"inputs": {"query": "Weather update for Sydney Australia"}, "outputs": {"expected_intent": "weather", "expected_confidence": "high"}}
+{"inputs": {"query": "What is the main topic of the document?"}, "outputs": {"expected_intent": "pdf", "expected_confidence": "high"}}
+{"inputs": {"query": "Summarize the key points from the PDF"}, "outputs": {"expected_intent": "pdf", "expected_confidence": "high"}}
+{"inputs": {"query": "What are the conclusions in the uploaded document?"}, "outputs": {"expected_intent": "pdf", "expected_confidence": "high"}}
+{"inputs": {"query": "Find information about machine learning in the document"}, "outputs": {"expected_intent": "pdf", "expected_confidence": "high"}}
+{"inputs": {"query": "What does chapter 3 say about data analysis?"}, "outputs": {"expected_intent": "pdf", "expected_confidence": "high"}}
+{"inputs": {"query": "Extract the methodology from the research paper"}, "outputs": {"expected_intent": "pdf", "expected_confidence": "high"}}
+{"inputs": {"query": "What are the references cited in the document?"}, "outputs": {"expected_intent": "pdf", "expected_confidence": "high"}}
+{"inputs": {"query": "Explain the findings in section 2 of the PDF"}, "outputs": {"expected_intent": "pdf", "expected_confidence": "high"}}
+{"inputs": {"query": "What does the document say about implementation?"}, "outputs": {"expected_intent": "pdf", "expected_confidence": "high"}}
+{"inputs": {"query": "Show me the abstract of the uploaded paper"}, "outputs": {"expected_intent": "pdf", "expected_confidence": "high"}}

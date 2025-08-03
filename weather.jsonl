@@ -1,0 +1,20 @@
+{"inputs": {"query": "What's the weather in London?"}, "outputs": {"expected_contains": ["temperature", "description", "London"], "location": "London", "weather_aspect": "current", "should_include_units": true}}
+{"inputs": {"query": "How hot is it in Dubai today?"}, "outputs": {"expected_contains": ["temperature", "Dubai", "hot"], "location": "Dubai", "weather_aspect": "temperature", "should_include_units": true}}
+{"inputs": {"query": "Is it raining in Seattle?"}, "outputs": {"expected_contains": ["rain", "precipitation", "Seattle"], "location": "Seattle", "weather_aspect": "precipitation", "should_include_units": false}}
+{"inputs": {"query": "What's the humidity in Miami?"}, "outputs": {"expected_contains": ["humidity", "Miami", "%"], "location": "Miami", "weather_aspect": "humidity", "should_include_units": true}}
+{"inputs": {"query": "Wind speed in Chicago"}, "outputs": {"expected_contains": ["wind", "speed", "Chicago"], "location": "Chicago", "weather_aspect": "wind", "should_include_units": true}}
+{"inputs": {"query": "Weather forecast for Tokyo tomorrow"}, "outputs": {"expected_contains": ["forecast", "Tokyo", "tomorrow"], "location": "Tokyo", "weather_aspect": "forecast", "should_include_units": true}}
+{"inputs": {"query": "Is it sunny in Los Angeles?"}, "outputs": {"expected_contains": ["sunny", "clear", "Los Angeles"], "location": "Los Angeles", "weather_aspect": "conditions", "should_include_units": false}}
+{"inputs": {"query": "Temperature in New York City"}, "outputs": {"expected_contains": ["temperature", "New York"], "location": "New York", "weather_aspect": "temperature", "should_include_units": true}}
+{"inputs": {"query": "Weather conditions in Paris, France"}, "outputs": {"expected_contains": ["conditions", "Paris"], "location": "Paris", "weather_aspect": "conditions", "should_include_units": false}}
+{"inputs": {"query": "What's the weather like in Sydney?"}, "outputs": {"expected_contains": ["weather", "Sydney", "conditions"], "location": "Sydney", "weather_aspect": "general", "should_include_units": true}}
+{"inputs": {"query": "Current weather in Mumbai India"}, "outputs": {"expected_contains": ["weather", "Mumbai", "current"], "location": "Mumbai", "weather_aspect": "current", "should_include_units": true}}
+{"inputs": {"query": "How cold is it in Moscow?"}, "outputs": {"expected_contains": ["cold", "temperature", "Moscow"], "location": "Moscow", "weather_aspect": "temperature", "should_include_units": true}}
+{"inputs": {"query": "Weather in Barcelona today"}, "outputs": {"expected_contains": ["weather", "Barcelona", "today"], "location": "Barcelona", "weather_aspect": "current", "should_include_units": true}}
+{"inputs": {"query": "Is it snowing in Denver?"}, "outputs": {"expected_contains": ["snow", "snowing", "Denver"], "location": "Denver", "weather_aspect": "precipitation", "should_include_units": false}}
+{"inputs": {"query": "Atmospheric pressure in Hong Kong"}, "outputs": {"expected_contains": ["pressure", "atmospheric", "Hong Kong"], "location": "Hong Kong", "weather_aspect": "pressure", "should_include_units": true}}
+{"inputs": {"query": "Weather visibility in San Francisco"}, "outputs": {"expected_contains": ["visibility", "San Francisco"], "location": "San Francisco", "weather_aspect": "visibility", "should_include_units": true}}
+{"inputs": {"query": "Storm conditions in Miami"}, "outputs": {"expected_contains": ["storm", "conditions", "Miami"], "location": "Miami", "weather_aspect": "severe_weather", "should_include_units": false}}
+{"inputs": {"query": "UV index in Cairo"}, "outputs": {"expected_contains": ["UV", "index", "Cairo"], "location": "Cairo", "weather_aspect": "uv_index", "should_include_units": true}}
+{"inputs": {"query": "Feels like temperature in Phoenix"}, "outputs": {"expected_contains": ["feels like", "temperature", "Phoenix"], "location": "Phoenix", "weather_aspect": "feels_like", "should_include_units": true}}
+{"inputs": {"query": "Weather alerts for Dallas"}, "outputs": {"expected_contains": ["alerts", "weather", "Dallas"], "location": "Dallas", "weather_aspect": "alerts", "should_include_units": false}}
