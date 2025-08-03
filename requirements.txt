@@ -1,0 +1,14 @@
+langchain
+langgraph
+langsmith
+streamlit
+qdrant-client
+sentence-transformers
+requests
+python-dotenv
+PyPDF2
+pytest
+python-multipart
+numpy
+torch
+transformers
