@@ -12,3 +12,4 @@ python-multipart
 numpy
 torch
 transformers
+langchain_groq
